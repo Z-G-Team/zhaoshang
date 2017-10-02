@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <!-- <base href="/" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>121同步</title>
+    <meta name="keywords" content="121同步">
+    <meta name="description" content="121同步">
+    <link rel="stylesheet" type="text/css" href="dest/css/tongbu.css" />
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <section class="wrapper">
+            <!-- logo -->
+            <h1 class="logo">
+                <img src="images/logo.jpg" alt="">
+            </h1>
+            <nav class="nav">
+                <a href="/">首页</a>
+                <a href="/">产品项目</a>
+                <a href="/">合作支持</a>
+            </nav>
+        </section>
+    </header>
+    <!-- 头部 end -->
+    <!-- 主要内容 begin -->
+    <section class="main">
+        <!-- 第一层 banner begin -->
+        <section class="section banner">
+            <!-- Swiper -->
+            <div class="swiper-container banner-list">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url('upload/images/banner/banner-1.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('upload/images/banner/banner-1.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('upload/images/banner/banner-1.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('upload/images/banner/banner-1.jpg')"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <!-- 第一层 banner end -->
+    </section>
+    <!-- 主要内容 end -->
+    <section class="footer">
+        <section class="wrapper">
+
+        </section>
+        <section class="copyright">
+
+        </section>
+    </section>
+    <!-- 回到顶部 begin -->
+    <!-- <section id="rocket-to-top">
+    </section> -->
+    <!-- 回到顶部 end -->
+    <!-- js -->
+    <script type="text/javascript" src="lib/jquery/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="lib/swiper.min.js"></script>
+    <script type="text/javascript" src="dest/js/tongbu.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            //banner
+            var swiper1 = new Swiper('.banner-list', {
+                pagination: '.swiper-pagination',
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                slidesPerView: 1,
+                paginationClickable: true,
+                spaceBetween: 0,
+                loop: true
+            });
+
+        });
+    </script>
+</body>
+
+</html>
