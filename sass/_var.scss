@@ -1,23 +1,28 @@
 //主题颜色
-//$theme-color: #ff8a00;
-
+$theme-color: #00a7eb;
 
 // 主色
-$color-primary: #128A6C;
-$color-danger: #f6383a;
-$color-warning: #f60;
-$color-success: #4cd964;
+$color-primary: #00a7eb;
+$color-danger: #e53935;
+$color-warning: #ffac13;
+$color-success: #83c44e;
+
+$blue: #00a7eb;
+$red: #e53935;
+$orange: #ffac13;
+$green: #83c44e;
+$bluePurple: #8461f9;
+$purpleRed: #fe016e;
 
 //active 色调
-$color-primary-active: darken($color-primary,10%);
+$color-primary-active: darken($color-primary, 10%);
 $color-danger-active: darken($color-danger, 10%);
 $color-warning-active: darken($color-warning, 10%);
 $color-success-active: darken($color-success, 10%);
 
-$color-split: #e6e6e6;  //分割线的颜色
-$color-bg: #eee;
-
-$color-white:#fff;
+$color-split: #e6e6e6; //分割线的颜色
+$color-bg: #f1f1f1;
+$color-white: #fff;
 
 $color-text: #333; //文案色
 $color-text-secondary: #666; //次级文案
@@ -28,21 +33,15 @@ $color-text-gray-light: #ccc; //更灰色文案
 $color-link: $color-primary; //链接色有可能不同于主色
 $color-link-active: $color-primary-active; //链接色有可能不同于主色
 
-
 //按钮颜色
-$color-btn-primary:#ff7011;
-
+$color-btn-primary: $color-primary;
 
 // Transitions
 // --------------------------------------------------
-$timing-fuction: cubic-bezier(.1,.5,.1,1); // Inspired by $c2prods
+$timing-fuction: cubic-bezier(0.1, 0.5, 0.1, 1); // Inspired by $c2prods
 
-
-$themeColor:#1295D8;
-$skinColor:#F96554;
-//字体颜色
-
-$white:#fff;
-//边框颜色
-$e0:#e0e0e0;
-$d2:#d2e2e2;
+//font-size
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-18: 18px;
+$font-size-20: 20px;
