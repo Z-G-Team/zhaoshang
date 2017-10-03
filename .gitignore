@@ -1,7 +1,8 @@
 .DS_Store
 node_modules/
 css/
-dest/
+dest/css/
+dest/js/
 npm-debug.log
 yarn-error.log
 npm-debug.log*

@@ -12,10 +12,12 @@ $color-success: #83c44e;
 $blue: #00a7eb;
 $red: #e53935;
 $orange: #ffac13;
+$orange1: #ff6700;
 $green: #83c44e;
 $bluePurple: #8461f9;
 $purpleRed: #fe016e;
 
+$shadowColor:rgba(0,0,0,.2);
 //active 色调
 $color-primary-active: darken($color-primary, 10%);
 $color-danger-active: darken($color-danger, 10%);
