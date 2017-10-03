@@ -1,0 +1,12 @@
+.cooper{
+    .top-tab{
+        .&-item{
+            i{
+                width:46px;
+                height:46px;
+                display: inline-block;
+                background: url(../dest/images/cooper-ui.png) no-repeat;          
+            }
+        }
+    }
+}
