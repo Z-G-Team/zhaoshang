@@ -51,7 +51,7 @@ gulp.task('sass', function() {
 gulp.task('minifyCss', function() {
     gulp.src(csssource)
         //将图片url改为dest/css目录到dest/images的路径
-        .pipe(replace(/url\s?\(.*?images\/(.*?)['"]?\s*\)/g, 'url("../images/$1")'))
+        // .pipe(replace(/url\s?\(.*?images\/(.*?)['"]?\s*\)/g, 'url("../images/$1")'))
 
 
     .pipe(gulp.dest(cssdest))
