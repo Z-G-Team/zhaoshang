@@ -1,0 +1,77 @@
+@import './_var.scss';
+@import './_mixins.scss';
+.cooper {
+    .top-tab {
+        padding:12px 30px 5px;
+        font-size:0;
+        .item {
+            padding-bottom:10px;
+            border-bottom:2px solid #fff;
+            transition: border-bottom 0.3s;
+            display: inline-block;
+            text-align: center;
+            width: 14.28%;
+            &.active{
+                border-bottom:2px solid $color-blue;
+            }
+            .text{
+                display: block;
+                font-size:16px;
+            }
+            .cooper-ui{
+                width: 46px;
+                height: 46px;
+                display: inline-block;
+                background: url(../dest/images/cooper-ui.png) no-repeat;
+                margin-bottom:8px;
+                
+                &.i-1 {
+                    background-position: -264px -246px;
+                }
+                &.i-2 {
+                    background-position: -132px -246px;
+                }
+                &.i-3 {
+                    background-position: 0px -246px;
+                }
+                &.i-4 {
+                    background-position: -352px -66px;
+                }
+                &.i-5 {
+                    background-position: -198px -246px;
+                }
+                &.i-6 {
+                    background-position: -352px 0px;
+                }
+                &.i-7 {
+                    background-position: -66px -246px;
+                }
+            }
+        }
+    }
+    &-banner{
+        width:100%;
+        height:390px;
+        overflow:hidden;
+        background:url('../dest/images/cooper-banner.jpg') no-repeat center;
+        background-size:cover;
+    }
+    &-tab{
+        .tab-box{
+            font-size:0;
+            .item{
+                height:50px;
+                line-height: 50px;
+                font-size:14px;
+                display: inline-block;
+                padding:0 18px;
+                &.active{
+                    background: $color-blue;
+                    &:after{
+                        @include arrow(bottom,10,$color-blue)
+                    }
+                }
+            }
+        }
+    }
+}
