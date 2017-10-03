@@ -245,13 +245,14 @@
 }
 
 body {
-  font: 15px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica,
+  font: 16px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica,
     "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
   color: $color-text;
-  background: #fff;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .wrapper {
+  position: relative;
   width: 1180px;
   margin: 0 auto;
 }

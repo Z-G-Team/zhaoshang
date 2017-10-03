@@ -1,0 +1,17 @@
+.banner {
+  margin: 0 auto;
+  height: 500px;
+}
+
+.hd {
+  text-align: center;
+  .title {
+    padding: 50px 0 20px;
+    line-height: 46px;
+    font-size: 36px;
+  }
+  .sub-title {
+    font-size: $font-size-16;
+    line-height: 1;
+  }
+}

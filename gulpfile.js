@@ -13,7 +13,7 @@ var scsssource = ["./sass/*.scss", "./sass/!_*.scss"],
   scssdest = "./css",
   csssource = ["./css/*.css"],
   cssdest = "./dest/css",
-  jssource = ["js/**/*.js"],
+  jssource = ["js/*.js"],
   jsdest = "./dest/js",
   imgsource = ["./images/**/*"],
   imgdest = "./dest/images",
@@ -45,10 +45,9 @@ gulp.task("minifyCss", function() {
   gulp
     .src(csssource)
     //将图片url改为dest/css目录到dest/images的路径
-    // .pipe(replace(/url\s?\(.*?images\/(.*?)['"]?\s*\)/g, 'url("../images/$1")'))
-    .pipe(
-      replace(/url\s?\(.*?images\/(.*?)['"]?\s*\)/g, 'url("../../images/$1")')
-    )
+    // .pipe(
+    //   replace(/url\s?\(.*?images\/(.*?)['"]?\s*\)/g, 'url("../dest/images/$1")')
+    // )
     .pipe(concat("tongbu.css"))
     .pipe(gulp.dest(cssdest))
     .pipe(

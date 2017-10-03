@@ -1,51 +1,70 @@
-.footer{
-	background: #f0f3f5;
-	font-size: 16px;
-	min-width: 1345px;
+.footer {
+  background: #333;
+  width: 100%;
+  color: $color-white;
 }
-.footer-link:after,
-.footer-link:before{
-    content: "";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-.footer-link{
-	padding: 35px 80px;
-	dl{
-		width: 33%;
-		float: left;
-	}
-	dt{
-		font-size: 20px;
-		@include height(20px);
-		border-left: 4px solid #727171;
-		padding-left: 10px;
-		margin:8px 0;
-	}
-	dd{
-		line-height: 36px;
-		padding-left: 14px;
-		position: relative;
 
-		&:before{
-			position:absolute;
-			left: 0;
-			top: 16px;
-			@include square(4px);
-			background: #727171;
-			display: block;
-		}
-	}
+.footer-nav {
+  text-align: center;
+  height: 64px;
+  padding: 22px 0;
+  border-bottom: 2px solid #777;
+  .footer-nav-item {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    border-left: 1px solid $color-white;
+    color: $color-white;
+    padding: 0 30px;
+    overflow: hidden;
+    &:first-child {
+      border-left: 0;
+    }
+    &:hover {
+      color: $theme-color;
+    }
+  }
 }
-.copyright{
-	@include height(56px);
-	color: $color-text-secondary;
-	text-align: center;
-	background: #dbdddf;
-	a{
-		padding: 0 8px;
-		color: $color-text-secondary;
-	}
+.footer-content {
+  padding-top: 25px;
+  line-height: 26px;
+  .footer-content-l {
+    float: left;
+    width: 237px;
+  }
+  .footer-content-m {
+    float: left;
+    width: 400px;
+    margin-left: 15px;
+    font-size: $font-size-14;
+  }
+  .footer-content-r {
+    float: right;
+    text-align: right;
+    .footer-tel {
+      p {
+        line-height: 27px;
+      }
+      .phone {
+        font-size: 38px;
+        line-height: 38px;
+      }
+      i {
+        display: inline-block;
+        @include square(20px);
+        background-color: $color-white;
+        margin-top: 7px;
+      }
+    }
+    .footer-qrcode {
+    }
+  }
+}
+.copyright {
+  @include height(54px);
+  text-align: center;
+  font-size: $font-size-14;
+  a {
+    color: $color-white;
+  }
 }
