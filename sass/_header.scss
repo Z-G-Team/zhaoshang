@@ -11,9 +11,10 @@
     float: right;
     .tab-item {
       padding: 0 25px;
-      //   &:hover{
-      //       color: $theme-color;
-      //   }
+      &:hover,
+      &.active {
+        color: $theme-color;
+      }
     }
     .btn {
       color: $color-white;
