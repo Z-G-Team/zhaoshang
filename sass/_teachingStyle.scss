@@ -1,0 +1,220 @@
+.teaching-style-banner {
+  display: block;
+  background: url("../images/teach-style/teach-style-banner.jpg") no-repeat
+    center center;
+  height: 630px;
+}
+
+.teaching-style {
+  &-block {
+    padding: 70px 0 50px;
+  }
+  .style-title {
+    p {
+      font-size: 24px;
+      line-height: 1;
+    }
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    padding: 21px 29px;
+    border-radius: 50%;
+  }
+}
+
+.teaching-style-01 {
+  background-color: #f5f8fb;
+  position: relative;
+  .teaching-bg {
+    position: absolute;
+    display: block;
+  }
+  .teaching-bg-1 {
+    background: url("../images/teach-style/teach-style-bg-01.png") no-repeat
+      left top;
+    width: 782px;
+    height: 313px;
+    left: 0;
+    top: 0;
+  }
+  .teaching-bg-2 {
+    background: url("../images/teach-style/teach-style-bg-02.png") no-repeat
+      left top;
+    width: 386px;
+    height: 243px;
+    right: 0;
+    top: 0;
+  }
+  .teaching-bg-3 {
+    background: url("../images/teach-style/teach-style-bg-03.png") no-repeat
+      left top;
+    width: 315px;
+    height: 912px;
+    left: 0;
+    bottom: 500px;
+  }
+  .teaching-bg-4 {
+    background: url("../images/teach-style/teach-style-bg-04.png") no-repeat
+      left top;
+    width: 486px;
+    height: 865px;
+    right: 0;
+    top: 420px;
+  }
+  .teaching-bg-5 {
+    background: url("../images/teach-style/teach-style-bg-05.png") no-repeat
+      left top;
+    width: 550px;
+    height: 333px;
+    right: 0;
+    bottom: 0;
+  }
+  .style-title {
+    h2 {
+      font-size: 62px;
+      line-height: 62px;
+      color: $blue;
+    }
+  }
+  .style-list {
+  }
+  .style-list-item {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 20px;
+    display: block;
+    &-title {
+      display: inline-block;
+      width: 130px;
+      height: 130px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    &-text {
+      width: 990px;
+      height: 100%;
+      padding: 20px 50px;
+      border: 2px solid $blue;
+      border-radius: 20px;
+      font-size: 16px;
+      line-height: 28px;
+      position: relative;
+      &:before,
+      &:after {
+        position: absolute;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+      }
+    }
+    &.item-single {
+      .style-list-item-text {
+        background-color: $blue;
+        margin-left: 180px;
+        color: $color-white;
+        &:before {
+          @include arrow(left,33px 20px,$blue);
+          left: -20px;
+        }
+      }
+      .style-list-item-text {
+      }
+    }
+    &.item-double {
+      .style-list-item-title {
+      }
+      .style-list-item-text {
+        margin-right: 50px;
+        color: $blue;
+        background-color: $color-white;
+        &:before {
+          @include arrow(right,33px 20px,$blue);
+          right: -20px;
+        }
+        &:after {
+          @include arrow(right,33px 20px,$color-white);
+          right: -18px;
+          z-index: 2;
+        }
+      }
+    }
+  }
+}
+.teaching-style-02 {
+  background-color: $blue;
+  position: relative;
+  //   height: 794px;
+  .style-title {
+    color: $color-white;
+    h2 {
+      font-size: 62px;
+      line-height: 62px;
+    }
+  }
+  .swiper-container {
+    width: 910px;
+    height: 462px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 680px;
+    height: 462px;
+  }
+  .swiper-button-next2,
+  .swiper-button-prev2 {
+    background-color: #f3f730;
+  }
+}
+
+.teaching-style-03 {
+  background-color: $color-white;
+  .style-title {
+    color: $blue;
+    h2 {
+      font-size: 62px;
+      line-height: 62px;
+    }
+  }
+  .teaching-style-content {
+    position: relative;
+    height: 501px;
+  }
+  .swiper-container {
+    width: 898px;
+    height: 501px;
+  }
+  .swiper-slide {
+  }
+  .swiper-button-next3,
+  .swiper-button-prev3 {
+    background-color: $blue;
+  }
+}
+
+.teaching-style-04 {
+  background-color: #fafafa;
+}
+.teaching-style-student {
+  &-title {
+    width: 200px;
+    text-align: center;
+    font-size: 46px;
+    color: $blue;
+    line-height: 56px;
+    padding-top: 90px;
+    .icon-student {
+      display: inline-block;
+      background: url("../images/teach-style/icon-purper.png") no-repeat 0 0;
+      width: 56px;
+      height: 46px;
+      cursor: pointer;
+      margin-top: 60px;
+    }
+  }
+  &-pic {
+  }
+}
