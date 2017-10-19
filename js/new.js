@@ -30,6 +30,8 @@ function getClassList(){
 				$('.news-tab').html(strs);
 
 				getNewsList();
+
+				setTimeout(pages,2000);
 			}else{
 				$('.news-tab').html('');
 				layer.msg('暂无分类');
@@ -75,14 +77,14 @@ function getNewsList(){
                 	strs +='</li>';
 				}
 				// alert(currentPage);
-				pages();
+				
 				$('.news-list').html(strs);
 			}else{
 				currentPage = ret.page;
 				totalPage = ret.all_page;
 				count = ret.counts;
 				page = ret.next_page;
-				pages();
+
 				$('.news-list').html('');
 				layer.msg('暂无数据');
 			}
@@ -99,24 +101,14 @@ $('.news-tab').on('click','a', function(){
 	$(this).addClass('active');
 	
 	getNewsList();
+	setTimeout(pages,2000);
 });
 
-//点击分页
-$('#pagination').on('click','a', function(){
-	var p = $(this).data('current');
-	if(p==0){
-		page = 1;
-	}else{
-		page = p;
-	}
-	// alert(page);
-	// alert(default_id);
-	getNewsList();
-});
 
 
 //分页函数
 function pages(){
+	// alert(11);
 	$("#pagination").pagination({
         currentPage: currentPage,
         totalPage: totalPage,
@@ -124,7 +116,10 @@ function pages(){
         count: count,
         prevPageText: "上一页",
         nextPageText: "下一页",
-        callback: function (current) {}
+        callback: function (current) {
+        	page = current;
+        	getNewsList();
+        }
     });
 }
 
