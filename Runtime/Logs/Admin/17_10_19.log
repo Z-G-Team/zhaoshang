@@ -1,0 +1,371 @@
+[ 2017-10-19T13:29:36+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+
+[ 2017-10-19T13:29:36+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2017-10-19T13:29:42+08:00 ] 127.0.0.1 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ke_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0167s ]
+SQL: UPDATE `ke_user` SET `last_login_time`='2017-10-18 14:05:27',`last_login_ip`='127.0.0.1',`now_login_time`='2017-10-19 13:29:42',`now_login_ip`='127.0.0.1',`login_times`='256' WHERE `id` = 1 [ RunTime:0.0605s ]
+
+[ 2017-10-19T13:29:43+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `ke_menu` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `ke_role` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0072s ]
+SQL: SELECT * FROM `ke_menu` WHERE `id` IN ('126','127','161','180','181','349','401','440','339','134','135','147','156','340','341','342','373','343','344','345','346','347','392','393','394','395','396','397','398','399','400','482','483','484','485','486','487','488','489') AND `type` = 1 ORDER BY sort desc  [ RunTime:0.0095s ]
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2017-10-19T13:29:49+08:00 ] 127.0.0.1 /Admin/ArticleCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `ke_menu` [ RunTime:0.0351s ]
+SQL: SHOW COLUMNS FROM `ke_role` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_menu` WHERE `id` IN ('126','127','161','180','181','349','401','440','339','134','135','147','156','340','341','342','373','343','344','345','346','347','392','393','394','395','396','397','398','399','400','482','483','484','485','486','487','488','489') AND `type` = 1 ORDER BY sort desc  [ RunTime:0.0008s ]
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+SQL: SHOW COLUMNS FROM `ke_article_category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ke_article_category` ORDER BY id asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: bars E:\www\op\Application\Admin\Controller\ArticleCategoryController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 88 行.
+NOTIC: [8] Undefined variable: type E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 150 行.
+NOTIC: [8] Undefined variable: type E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 180 行.
+NOTIC: [8] Undefined variable: type E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 180 行.
+NOTIC: [8] Undefined variable: type E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 180 行.
+NOTIC: [8] Undefined variable: type E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 180 行.
+NOTIC: [8] Undefined variable: type E:\www\op\Runtime\Cache\Admin\a4157d61f42ecf177c2157a7bd6c97ba.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2017-10-19T13:29:52+08:00 ] 127.0.0.1 /Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `ke_menu` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `ke_role` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_menu` WHERE `id` IN ('126','127','161','180','181','349','401','440','339','134','135','147','156','340','341','342','373','343','344','345','346','347','392','393','394','395','396','397','398','399','400','482','483','484','485','486','487','488','489') AND `type` = 1 ORDER BY sort desc  [ RunTime:0.0007s ]
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+SQL: SHOW COLUMNS FROM `ke_article_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ke_article_category` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_article` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 88 行.
+NOTIC: [8] Undefined variable: type E:\www\op\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2017-10-19T13:29:56+08:00 ] 127.0.0.1 /Admin/Join/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `ke_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ke_role` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_menu` WHERE `id` IN ('126','127','161','180','181','349','401','440','339','134','135','147','156','340','341','342','373','343','344','345','346','347','392','393','394','395','396','397','398','399','400','482','483','484','485','486','487','488','489') AND `type` = 1 ORDER BY sort desc  [ RunTime:0.0007s ]
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+SQL: SHOW COLUMNS FROM `ke_join` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_join` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_join` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 88 行.
+NOTIC: [8] Undefined variable: BOOK_TYPE E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 164 行.
+NOTIC: [8] Undefined variable: BOOK_STATUS E:\www\op\Runtime\Cache\Admin\0dc0d8597da1868afe33b1bb97be0021.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001661s ]
+
+[ 2017-10-19T13:29:59+08:00 ] 127.0.0.1 /Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0348s ]
+SQL: SHOW COLUMNS FROM `ke_menu` [ RunTime:0.0291s ]
+SQL: SHOW COLUMNS FROM `ke_role` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_menu` WHERE `id` IN ('126','127','161','180','181','349','401','440','339','134','135','147','156','340','341','342','373','343','344','345','346','347','392','393','394','395','396','397','398','399','400','482','483','484','485','486','487','488','489') AND `type` = 1 ORDER BY sort desc  [ RunTime:0.0008s ]
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_book` WHERE `status` < 4 LIMIT 1   [ RunTime:0.0519s ]
+SQL: SELECT * FROM `ke_book` WHERE `status` < 4 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2017-10-19T13:30:13+08:00 ] 127.0.0.1 /Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `ke_menu` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `ke_role` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_menu` WHERE `id` IN ('126','127','161','180','181','349','401','440','339','134','135','147','156','340','341','342','373','343','344','345','346','347','392','393','394','395','396','397','398','399','400','482','483','484','485','486','487','488','489') AND `type` = 1 ORDER BY sort desc  [ RunTime:0.0007s ]
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_book` WHERE `status` < 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_book` WHERE `status` < 4 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\afa8c6529ef554789834553d1ae7ec47.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2017-10-19T13:30:16+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `ke_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ke_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_menu` WHERE `id` IN ('126','127','161','180','181','349','401','440','339','134','135','147','156','340','341','342','373','343','344','345','346','347','392','393','394','395','396','397','398','399','400','482','483','484','485','486','487','488','489') AND `type` = 1 ORDER BY sort desc  [ RunTime:0.0007s ]
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\op\Application\Common\Common\function.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\op\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+

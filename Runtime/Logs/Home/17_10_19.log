@@ -1053,3 +1053,541 @@ SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id 
 SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0142s ]
 SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
 
+[ 2017-10-19T14:17:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2017-10-19T14:17:51+08:00 ] 127.0.0.1 /pages/dest/images/service-phone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+
+[ 2017-10-19T14:18:01+08:00 ] 127.0.0.1 /Index/join
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `ke_join` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate E:\www\op\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\www\op\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ke_join` (`name`,`phone`,`region`,`classes`,`subjects`,`add_time`) VALUES ('dd','dd','dd','dd','dd','2017-10-19 14:18:01') [ RunTime:0.0766s ]
+
+[ 2017-10-19T14:18:13+08:00 ] 127.0.0.1 /pages/dest/images/service-phone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+
+[ 2017-10-19T14:18:14+08:00 ] 127.0.0.1 /News/getCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `ke_article_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ke_article_category` WHERE ( pid=0 ) ORDER BY id asc  [ RunTime:0.0006s ]
+
+[ 2017-10-19T14:18:15+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0048s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,6   [ RunTime:0.0005s ]
+
+[ 2017-10-19T14:18:19+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=15 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=15 ) ORDER BY a.id desc LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:18:33+08:00 ] 127.0.0.1 /pages/dest/images/service-phone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+
+[ 2017-10-19T14:18:34+08:00 ] 127.0.0.1 /News/getCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+SQL: SHOW COLUMNS FROM `ke_article_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ke_article_category` WHERE ( pid=0 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:18:36+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0043s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0005s ]
+
+[ 2017-10-19T14:20:28+08:00 ] 127.0.0.1 /pages/dest/images/service-phone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+
+[ 2017-10-19T14:20:30+08:00 ] 127.0.0.1 /News/getCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+SQL: SHOW COLUMNS FROM `ke_article_category` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ke_article_category` WHERE ( pid=0 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:20:31+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:20:37+08:00 ] 127.0.0.1 /lib/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+ERR: 无法加载控制器:Lib
+
+[ 2017-10-19T14:21:05+08:00 ] 127.0.0.1 /pages/dest/images/service-phone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+
+[ 2017-10-19T14:21:05+08:00 ] 127.0.0.1 /lib/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+ERR: 无法加载控制器:Lib
+
+[ 2017-10-19T14:21:07+08:00 ] 127.0.0.1 /News/getCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `ke_article_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ke_article_category` WHERE ( pid=0 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:21:08+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0046s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:21:48+08:00 ] 127.0.0.1 /pages/dest/images/service-phone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-10-19T14:21:50+08:00 ] 127.0.0.1 /News/getCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `ke_article_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ke_article_category` WHERE ( pid=0 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:21:50+08:00 ] 127.0.0.1 /lib/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+ERR: 无法加载控制器:Lib
+
+[ 2017-10-19T14:21:51+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0043s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0006s ]
+
+[ 2017-10-19T14:22:04+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=16 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0044s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=16 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:22:09+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=16 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0039s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=16 ) ORDER BY a.id desc LIMIT 1,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:22:10+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=16 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=16 ) ORDER BY a.id desc LIMIT 2,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:22:13+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=16 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0055s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=16 ) ORDER BY a.id desc LIMIT 1,1   [ RunTime:0.0005s ]
+
+[ 2017-10-19T14:22:16+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=16 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=16 ) ORDER BY a.id desc LIMIT 2,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:22:19+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=16 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0046s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=16 ) ORDER BY a.id desc LIMIT 1,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:22:21+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0039s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0005s ]
+
+[ 2017-10-19T14:22:26+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0037s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0005s ]
+
+[ 2017-10-19T14:22:29+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 1,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:22:34+08:00 ] 127.0.0.1 /pages/dest/images/service-phone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-10-19T14:22:35+08:00 ] 127.0.0.1 /News/getCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `ke_article_category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ke_article_category` WHERE ( pid=0 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:22:36+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0041s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:22:41+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=13 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0039s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=13 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:22:43+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0038s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:22:44+08:00 ] 127.0.0.1 /pages/dest/images/service-phone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+
+[ 2017-10-19T14:22:45+08:00 ] 127.0.0.1 /News/getCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `ke_article_category` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ke_article_category` WHERE ( pid=0 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:22:46+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0063s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:23:17+08:00 ] 127.0.0.1 /pages/dest/images/service-phone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-10-19T14:23:18+08:00 ] 127.0.0.1 /News/getCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `ke_article_category` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ke_article_category` WHERE ( pid=0 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:23:19+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0039s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:23:38+08:00 ] 127.0.0.1 /pages/dest/images/service-phone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-10-19T14:23:39+08:00 ] 127.0.0.1 /News/getCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `ke_article_category` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ke_article_category` WHERE ( pid=0 ) ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:23:41+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0039s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:23:44+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=12 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0038s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=12 ) ORDER BY a.id desc LIMIT 2,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:23:47+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=16 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0462s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=16 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0005s ]
+
+[ 2017-10-19T14:23:51+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=16 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0039s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=16 ) ORDER BY a.id desc LIMIT 1,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:23:54+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=16 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0040s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=16 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0005s ]
+
+[ 2017-10-19T14:23:57+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=15 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0037s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=15 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:23:59+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=14 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0039s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=14 ) ORDER BY a.id desc LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:24:04+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=14 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0039s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=14 ) ORDER BY a.id desc LIMIT 1,1   [ RunTime:0.0004s ]
+
+[ 2017-10-19T14:24:06+08:00 ] 127.0.0.1 /News/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_article` WHERE ( pid=14 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0045s ]
+SQL: SELECT a.*,ac.name as cname FROM ke_article a left join ke_article_category ac on ac.id = a.pid   WHERE ( a.pid=14 ) ORDER BY a.id desc LIMIT 2,1   [ RunTime:0.0006s ]
+
