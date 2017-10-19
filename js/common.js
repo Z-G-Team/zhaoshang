@@ -162,6 +162,27 @@ function learnCarousel() {
   });
   //注册表单
   $('#submit1').click(function(){
+    var validate = {
+      userName: {
+        value: $('#username1').val().trim(),
+        message: '请输入姓名！'
+      },
+      phone: {
+        value: /^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$/.test($('#phone1').val().trim()),
+        message: '请输入正确的手机号！'
+
+      },
+      area: {
+        value: $('#area1').val().trim(),
+        message: '请输入所在地区'
+      }
+    }
+    for (var key in validate) {
+      if (!validate[key].value) {
+        layer.msg(validate[key].message)
+        return
+      }
+    }
     layer.load(1);
     $.ajax({
         url : '/Index/join',
