@@ -293,13 +293,13 @@ body{font:14px/1.5 "Microsoft Yahei","Hiragino Sans GB",Helvetica,"Helvetica Neu
 .btn,a.btn-yy,a.btn-yy.fs-large:after{display:inline-block}
 .fixed-right .item .inner i{display:inline-block;background:center top no-repeat;width:36px;height:30px}
 .fixed-right .item .inner.code{background:#fce531}
-.fixed-right .item .inner.code i{background-image:url(../images/right-code-icon.png)}
+.fixed-right .item .inner.code i{background-image:url(http://static.121tongbu.com/www/dest/images/right-code-icon.png)}
 .fixed-right .item .inner.yy{background:#52defd}
-.fixed-right .item .inner.yy i{background-image:url(../images/right-call-icon.png)}
+.fixed-right .item .inner.yy i{background-image:url(http://static.121tongbu.com/www/dest/images/right-call-icon.png)}
 .fixed-right .item .inner.service{background:#fc5278}
-.fixed-right .item .inner.service i{background-image:url(../images/right-service-icon.png)}
+.fixed-right .item .inner.service i{background-image:url(http://static.121tongbu.com/www/dest/images/right-service-icon.png)}
 .fixed-right .item .inner.toTop{background:#413e65;color:#fff}
-.fixed-right .item .inner.toTop i{background-image:url(../images/right-top-icon.png)}
+.fixed-right .item .inner.toTop i{background-image:url(http://static.121tongbu.com/www/dest/images/right-top-icon.png)}
 .btn{border-radius:45px;cursor:pointer}
 .btn-normal{width:240px;height:50px;line-height:50px;font-size:20px;text-align:center;transition:.3s}
 .btn-mini{font-size:14px;height:24px;line-height:24px;padding:0 10px}
@@ -318,14 +318,14 @@ a.btn-yy.white:hover{background:#ff7f24;color:#fff}
 .bg-theme-color{background-color:#ec6941}
 .theme-color{color:#ec6941}
 .header .head_top{height:50px;line-height:50px}
-.header .service_hotline{float:left;padding:0 30px;font-size:20px;background:url(../images/service_hotline.png) 0 center no-repeat}
+.header .service_hotline{float:left;padding:0 30px;font-size:20px;background:url(http://static.121tongbu.com/www/dest/images/service_hotline.png) 0 center no-repeat}
 .header .head_btn{float:left;margin:10px 0;width:110px;height:30px;line-height:30px;font-size:14px;text-align:center;border:none;background:#ff6a00;color:#fff;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;transition:.3s;-moz-transition:.3s;-webkit-transition:.3s}
 .header .head_btn:hover{background:#f90;cursor:pointer}
 .header .head_nav_logo{float:left;height:50px;padding:15px 0}
 .header .head_nav ul{float:right}
 .header .head_nav ul li{float:left;line-height:80px}
 .header .head_nav ul li a{display:block;height:80px;color:#666;padding:0 15px}
-.header .head_nav ul li a.as,.header .head_nav ul li a:hover{height:78px;border-bottom:2px solid #ff6a00;color:#ff6a00;background:url(../images/icon-01.png) center bottom no-repeat}
+.header .head_nav ul li a.as,.header .head_nav ul li a:hover{height:78px;border-bottom:2px solid #ff6a00;color:#ff6a00;background:url(http://static.121tongbu.com/www/dest/images/icon-01.png) center bottom no-repeat}
 .reservation{background:#939393}
 .reservation .reservation_title{float:left;width:85px;color:#fff;line-height:66px;font-size:18px}
 .reservation .r_main{float:left}
@@ -435,12 +435,12 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .loading .flex-viewport{max-height:300px}
 .flexslider .slides{zoom:1;height:100%}
 .flexslider .slides li{background-repeat:no-repeat;background-position:center center;height:100%}
-.flexslider .slides li.first{min-width:1275px;background-image:url(../images/index/index-banner1-bg.jpg);padding-top:12px}
-.flexslider .slides li.first .banner-inner{height:606px;width:1275px;background:url(../images/index/banner1.png) center no-repeat;margin:0 auto;padding:150px;font-size:24px}
+.flexslider .slides li.first{min-width:1275px;background-image:url(http://static.121tongbu.com/www/dest/images/index/index-banner1-bg.jpg);padding-top:12px}
+.flexslider .slides li.first .banner-inner{height:606px;width:1275px;background:url(http://static.121tongbu.com/www/dest/images/index/banner1.png) center no-repeat;margin:0 auto;padding:150px;font-size:24px}
 .flexslider .slides li.first .banner-inner h1{font-size:68px}
-.flexslider .slides li.second{background-image:url(../images/index/index-banner2-bg.jpg)}
+.flexslider .slides li.second{background-image:url(http://static.121tongbu.com/www/dest/images/index/index-banner2-bg.jpg)}
 .flexslider .slides li.second .banner-inner{text-align:center;width:781px;float:right;margin:100px 70px 0 0}
-.flexslider .slides li.second .banner-inner .img{display:inline-block;width:781px;height:334px;background:url(../images/index/banner2-text.png) center no-repeat}
+.flexslider .slides li.second .banner-inner .img{display:inline-block;width:781px;height:334px;background:url(http://static.121tongbu.com/www/dest/images/index/banner2-text.png) center no-repeat}
 .carousel li{margin-right:5px}
 .flex-direction-nav a{text-decoration:none;display:block;width:60px;height:70px;text-indent:-999em}
 .flex-direction-nav .flex-prev{background-position:0 0}
@@ -462,23 +462,23 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .index_title_top.black .tit{color:#000;background:#d2cfc9}
 .index_title_top.black .tit.yellow{background:#ffba26}
 .index_title_top .tit{display:inline-block;height:40px;line-height:40px;text-align:center;font-size:40px;font-weight:600;color:#FE6A00;padding:0 10px;background:#FFF}
-.index-block1{background:url(../images/index/block1-bg.jpg) right bottom no-repeat #fff}
+.index-block1{background:url(http://static.121tongbu.com/www/dest/images/index/block1-bg.jpg) right bottom no-repeat #fff}
 .index-block1-content .right{width:360px;text-align:center;margin:140px 0 0 90px}
-.index-block1-content .left{width:564px;height:564px;background:url(../images/index/mac.png) center no-repeat}
+.index-block1-content .left{width:564px;height:564px;background:url(http://static.121tongbu.com/www/dest/images/index/mac.png) center no-repeat}
 .index-block1-content .list li{float:left;display:inline-block;margin-left:15px;font-size:42px}
 .index-block1-content .list li:nth-child(2n+1){margin-left:0}
-.index-block2{background:url(../images/index/block3-bg.jpg) right bottom no-repeat #fff;padding-bottom:70px}
-.index-block2-content .index_lc{position:relative;width:1000px;height:320px;margin:20px auto 0;background:url(../images/index/index-lc.png) center no-repeat}
+.index-block2{background:url(http://static.121tongbu.com/www/dest/images/index/block3-bg.jpg) right bottom no-repeat #fff;padding-bottom:70px}
+.index-block2-content .index_lc{position:relative;width:1000px;height:320px;margin:20px auto 0;background:url(http://static.121tongbu.com/www/dest/images/index/index-lc.png) center no-repeat}
 .index-block2-content .index_lc li{display:block;width:180px;height:180px;overflow:hidden;-webkit-border-radius:90px;-moz-border-radius:90px;border-radius:90px;position:absolute}
-.index-block2-content .index_lc li.li1{left:0;top:20px;background:url(../images/index/index-lc1.png) center no-repeat}
-.index-block2-content .index_lc li.li2{left:270px;top:115px;background:url(../images/index/index-lc2.png) center no-repeat}
-.index-block2-content .index_lc li.li3{left:576px;top:20px;background:url(../images/index/index-lc3.png) center no-repeat}
-.index-block2-content .index_lc li.li4{left:820px;top:115px;background:url(../images/index/index-lc4.png) center no-repeat}
+.index-block2-content .index_lc li.li1{left:0;top:20px;background:url(http://static.121tongbu.com/www/dest/images/index/index-lc1.png) center no-repeat}
+.index-block2-content .index_lc li.li2{left:270px;top:115px;background:url(http://static.121tongbu.com/www/dest/images/index/index-lc2.png) center no-repeat}
+.index-block2-content .index_lc li.li3{left:576px;top:20px;background:url(http://static.121tongbu.com/www/dest/images/index/index-lc3.png) center no-repeat}
+.index-block2-content .index_lc li.li4{left:820px;top:115px;background:url(http://static.121tongbu.com/www/dest/images/index/index-lc4.png) center no-repeat}
 .index-block2-content .index_lc li p{padding:45px 0;color:#FFF;text-align:center;line-height:30px;font-size:16px;transition:background .3s;-moz-transition:.3s;-webkit-transition:.3s}
 .index-block3,.index-block4{padding-bottom:70px}
 .index-block2-content .index_lc li p.ps,.index-block2-content .index_lc li p:hover{background-color:#FE6A00}
 .index-block3-content{text-align:center}
-.index-block3-img .img{display:inline-block;width:1106px;height:440px;background:url(../images/index/block4-content.png) center no-repeat}
+.index-block3-img .img{display:inline-block;width:1106px;height:440px;background:url(http://static.121tongbu.com/www/dest/images/index/block4-content.png) center no-repeat}
 .index-block4{background:#ffba26}
 .team-list .item{width:285px;height:248px;float:left;margin:0 0 10px 10px;position:relative;overflow:hidden}
 .team-list .item:nth-child(4n+1){margin-left:0}
@@ -523,7 +523,7 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .service-big-box-m .join-us-form .form-item-radio .checked{width:13px;height:13px;border:2px solid #ff6a00;margin-top:10px}
 .service-big-box-m .join-us-form .form-item-radio input[type=radio]:checked+.checked{background-color:#ff6a00}
 .service-big-box-m .btn-apply{height:40px;line-height:40px;color:#fff;text-align:center;padding:0 30px;border-radius:10px;background-color:#ff6a00;position:absolute;left:50%;bottom:-25px;transform:translate3d(-50%,0,0)}
-.service-big-box-b .service-pic{display:inline-block;background:url(../images/service.png) left bottom no-repeat;background-size:contain;width:100px;height:100px;position:absolute;left:0;bottom:-10px}
+.service-big-box-b .service-pic{display:inline-block;background:url(http://static.121tongbu.com/www/dest/images/service.png) left bottom no-repeat;background-size:contain;width:100px;height:100px;position:absolute;left:0;bottom:-10px}
 .join-us-form .form-item{width:285px;height:32px;line-height:32px;display:inline-block;margin-bottom:10px}
 .join-us-form .form-item:last-child{width:auto}
 .join-us-form .form-item .form-item-label{width:85px;line-height:30px;display:inline-block;vertical-align:top}
@@ -538,13 +538,13 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .join-us-form .form-item-radio input[type=radio]{display:none}
 .join-us-form .form-item-radio input[type=radio]:checked+.checked{background-color:#ec6941}
 .layui-layer-service{border-radius:15px!important}
-.teaching-system-banner{display:block;background:url(../images/teach-system/teach-banner.jpg) center center no-repeat #f2f2f2;height:630px}
+.teaching-system-banner{display:block;background:url(http://static.121tongbu.com/www/dest/images/teach-system/teach-banner.jpg) center center no-repeat #f2f2f2;height:630px}
 .teaching-system-block{padding:70px 0 50px}
 .teaching-system .system-title p{font-size:24px;line-height:1}
 .teaching-system .swiper-button-next,.teaching-system .swiper-button-prev{box-sizing:content-box;-webkit-box-sizing:content-box;padding:21px 29px;border-radius:50%}
-.teaching-system-01 .system-title h2{display:block;text-indent:-999em;background:url(../images/teach-system/teaching-title-01.jpg) center top no-repeat;height:70px}
+.teaching-system-01 .system-title h2{display:block;text-indent:-999em;background:url(http://static.121tongbu.com/www/dest/images/teach-system/teaching-title-01.jpg) center top no-repeat;height:70px}
 .teaching-system-01 .system-title p{font-size:28px;padding-top:20px;line-height:1}
-.teaching-system-02{position:relative;background:url(../images/teach-system/teach-system-02.png) center top no-repeat #ec6941;height:934px}
+.teaching-system-02{position:relative;background:url(http://static.121tongbu.com/www/dest/images/teach-system/teach-system-02.png) center top no-repeat #ec6941;height:934px}
 .teaching-system-02 .system-title{color:#fff}
 .teaching-system-02 .system-title h2{font-size:62px;line-height:62px}
 .teaching-system-02 .teaching-system-content{position:relative}
@@ -552,14 +552,14 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .teaching-system-02 .swiper-slide{background-position:center;background-size:cover;width:686px;height:627px;border-radius:15px;overflow:hidden}
 .teaching-system-02 .swiper-button-next2,.teaching-system-02 .swiper-button-prev2{background-color:#fff}
 .teaching-system-03{padding-bottom:0;position:relative}
-.teaching-system-03 .teaching-system-content{position:relative;background:url(../images/teach-system/teach-swiper2-mac.png) center top no-repeat;height:758px;z-index:1}
+.teaching-system-03 .teaching-system-content{position:relative;background:url(http://static.121tongbu.com/www/dest/images/teach-system/teach-swiper2-mac.png) center top no-repeat;height:758px;z-index:1}
 .teaching-system-03 .swiper-container{width:811px;height:504px;padding:42px 0 0}
 .teaching-system-03 .swiper-slide{height:462px;text-align:center;font-size:18px;background:#fff;display:flex;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}
 .teaching-system-03 .swiper-button-next3,.teaching-system-03 .swiper-button-prev3{background-color:#ec6941;top:260px}
 .teaching-system-03-b{position:absolute;width:100%;height:70px;background-color:#ffba26;left:0;bottom:0;z-index:0}
 .teaching-system-04{background-color:#ffba26;padding-bottom:70px}
 .teaching-system-04 .system-title{color:#68390c}
-.teaching-system-04 .teaching-system-content{position:relative;background:url(../images/teach-system/teach-swiper3-pad.png) center top no-repeat;height:685px}
+.teaching-system-04 .teaching-system-content{position:relative;background:url(http://static.121tongbu.com/www/dest/images/teach-system/teach-swiper3-pad.png) center top no-repeat;height:685px}
 .teaching-system-04 .swiper-container{width:744px;padding:65px 0 0}
 .teaching-system-04 .swiper-slide{height:556px;text-align:center;font-size:18px;background:#fff;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}
 .teaching-system-04 .swiper-button-next4,.teaching-system-04 .swiper-button-prev4,.teaching-system-05{background-color:#fff}
@@ -581,17 +581,17 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .teaching-system-06 .system-list-item.item-double .system-list-item-title{background-color:#939393}
 .teaching-system-06 .system-list-item.item-double .system-list-item-title:before{content:"";width:0;height:0;line-height:0;font-size:0;overflow:hidden;border-width:20px;cursor:pointer;border-style:dashed solid dashed dashed;border-color:transparent #939393 transparent transparent;border-left:none;left:-20px}
 .teaching-system-06 .system-list-item.item-double .system-list-item-text{margin-left:70px}
-.teaching-style-banner{display:block;background:url(../images/teach-style/teach-style-banner.jpg) center center no-repeat;height:630px}
+.teaching-style-banner{display:block;background:url(http://static.121tongbu.com/www/dest/images/teach-style/teach-style-banner.jpg) center center no-repeat;height:630px}
 .teaching-style-block{padding:70px 0 50px}
 .teaching-style .style-title p{font-size:24px;line-height:1}
 .teaching-style .swiper-button-next,.teaching-style .swiper-button-prev{box-sizing:content-box;-webkit-box-sizing:content-box;padding:21px 29px;border-radius:50%}
 .teaching-style-01{background-color:#f5f8fb;position:relative}
 .teaching-style-01 .teaching-bg{position:absolute;display:block}
-.teaching-style-01 .teaching-bg-1{background:url(../images/teach-style/teach-style-bg-01.png) left top no-repeat;width:782px;height:313px;left:0;top:0}
-.teaching-style-01 .teaching-bg-2{background:url(../images/teach-style/teach-style-bg-02.png) left top no-repeat;width:386px;height:243px;right:0;top:0}
-.teaching-style-01 .teaching-bg-3{background:url(../images/teach-style/teach-style-bg-03.png) left top no-repeat;width:315px;height:912px;left:0;bottom:500px}
-.teaching-style-01 .teaching-bg-4{background:url(../images/teach-style/teach-style-bg-04.png) left top no-repeat;width:486px;height:865px;right:0;top:420px}
-.teaching-style-01 .teaching-bg-5{background:url(../images/teach-style/teach-style-bg-05.png) left top no-repeat;width:550px;height:333px;right:0;bottom:0}
+.teaching-style-01 .teaching-bg-1{background:url(http://static.121tongbu.com/www/dest/images/teach-style/teach-style-bg-01.png) left top no-repeat;width:782px;height:313px;left:0;top:0}
+.teaching-style-01 .teaching-bg-2{background:url(http://static.121tongbu.com/www/dest/images/teach-style/teach-style-bg-02.png) left top no-repeat;width:386px;height:243px;right:0;top:0}
+.teaching-style-01 .teaching-bg-3{background:url(http://static.121tongbu.com/www/dest/images/teach-style/teach-style-bg-03.png) left top no-repeat;width:315px;height:912px;left:0;bottom:500px}
+.teaching-style-01 .teaching-bg-4{background:url(http://static.121tongbu.com/www/dest/images/teach-style/teach-style-bg-04.png) left top no-repeat;width:486px;height:865px;right:0;top:420px}
+.teaching-style-01 .teaching-bg-5{background:url(http://static.121tongbu.com/www/dest/images/teach-style/teach-style-bg-05.png) left top no-repeat;width:550px;height:333px;right:0;bottom:0}
 .teaching-style-01 .style-title h2{font-size:62px;line-height:62px;color:#36407e}
 .teaching-style-01 .style-list-item{width:100%;height:130px;margin-bottom:20px;display:block}
 .teaching-style-01 .style-list-item-title{display:inline-block;width:130px;height:130px}
@@ -617,14 +617,14 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .teaching-style-03 .swiper-button-next3,.teaching-style-03 .swiper-button-prev3{background-color:#36407e}
 .teaching-style-04{background-color:#fafafa}
 .teaching-style-student-title{width:200px;text-align:center;font-size:46px;color:#36407e;line-height:56px;padding-top:90px}
-.teaching-style-student-title .icon-student{display:inline-block;background:url(../images/teach-style/icon-purper.png) no-repeat;width:56px;height:46px;cursor:pointer;margin-top:60px}
+.teaching-style-student-title .icon-student{display:inline-block;background:url(http://static.121tongbu.com/www/dest/images/teach-style/icon-purper.png) no-repeat;width:56px;height:46px;cursor:pointer;margin-top:60px}
 .coursesys .block{padding-top:40px;padding-bottom:50px}
 .coursesys .fc-white{color:#fff}
 .coursesys .fc-yellow{color:#ffba00}
-.coursesys-banner{background:url(../images/coursesys/course-banner.jpg) center no-repeat;background-size:cover;height:630px}
-.coursesys-block1{background:url(../images/coursesys/course-block2-bg.jpg) center no-repeat;background-size:cover}
+.coursesys-banner{background:url(http://static.121tongbu.com/www/dest/images/coursesys/course-banner.jpg) center no-repeat;background-size:cover;height:630px}
+.coursesys-block1{background:url(http://static.121tongbu.com/www/dest/images/coursesys/course-block2-bg.jpg) center no-repeat;background-size:cover}
 .coursesys-block3{background:#ffba00}
-.coursesys-block4{background:url(../images/coursesys/course-block5-bg.jpg) center bottom no-repeat;background-size:cover}
+.coursesys-block4{background:url(http://static.121tongbu.com/www/dest/images/coursesys/course-block5-bg.jpg) center bottom no-repeat;background-size:cover}
 .coursesys-block5{background:#ffba00}
 .coursesys .course-block .course-tit{font-size:62px;line-height:93px}
 .coursesys .course-block .course-tit .short{font-size:34px;vertical-align:middle}
@@ -640,7 +640,7 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .coursesys .block1-content .right{width:50%;color:#ffba00;padding-left:20px}
 .coursesys .block1-content .right .num{background:#ffba00;color:#fff;margin-right:10px}
 .coursesys .block1-content .right .short-tit .decoration{border-bottom:1px solid #ffba00}
-.coursesys .block2-content .block2-img{width:661px;height:520px;background:url(../images/coursesys/course-block3-content.png) center no-repeat}
+.coursesys .block2-content .block2-img{width:661px;height:520px;background:url(http://static.121tongbu.com/www/dest/images/coursesys/course-block3-content.png) center no-repeat}
 .coursesys .block2-content .block2-dl{width:360px}
 .coursesys .block2-content .block2-dl .item{color:#fff;font-size:16px;padding:15px 0;margin-bottom:20px}
 .coursesys .block2-content .block2-dl .item-green{background:#76bd3e}
@@ -651,8 +651,8 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .coursesys .block3-content .block3-list .item:first-child{margin-left:0}
 .coursesys .block3-content .block3-list .item img,.coursesys .block3-content .block3-list .item:hover .info{width:320px;height:320px}
 .coursesys .block3-content .block3-list .item .info{position:absolute;left:50%;width:0;height:0;transition:all .5s ease-in-out;top:50%;transform:translate(-50%,-50%);line-height:320px;text-align:center;font-size:32px;color:#fff;background:rgba(0,0,0,.4);border-radius:50%;overflow:hidden}
-.coursesys .block4-content .block4-img{height:461px;background:url(../images/coursesys/course-block5-content.png) center no-repeat}
-.coursesys .block5-content .block5-list .item{width:268px;height:218px;background:url(../images/coursesys/course-block6-item-bg.png) center top no-repeat;font-size:16px;float:left;margin-left:32.5px;text-align:center;padding:0 30px 30px}
+.coursesys .block4-content .block4-img{height:461px;background:url(http://static.121tongbu.com/www/dest/images/coursesys/course-block5-content.png) center no-repeat}
+.coursesys .block5-content .block5-list .item{width:268px;height:218px;background:url(http://static.121tongbu.com/www/dest/images/coursesys/course-block6-item-bg.png) center top no-repeat;font-size:16px;float:left;margin-left:32.5px;text-align:center;padding:0 30px 30px}
 .coursesys .block5-content .block5-list .item:first-child{margin-left:0}
 .coursesys .block5-content .block5-list .item .tit{font-size:28px;border-radius:0 0 10px 10px;background:#ffb123;text-align:center;height:55px;line-height:55px;width:165px;color:#000;margin-bottom:30px;display:inline-block}
 .coursesys .block5-content .block5-list .item .text{text-align:left}
@@ -662,9 +662,9 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .coursesys .block6-content .item-box .tit .tit-inner.grey{background:#4a5265}
 .coursesys .block6-content .item-list{background:#f3f3f3;padding:25px;height:220px}
 .coursesys .block6-content .item-list li{line-height:32px}
-.coursesys .block6-content .item-list li .course-icon-check{display:inline-block;vertical-align:middle;height:14px;width:16px;background:url(../images/coursesys/check-icon.png) center no-repeat;margin-right:20px}
+.coursesys .block6-content .item-list li .course-icon-check{display:inline-block;vertical-align:middle;height:14px;width:16px;background:url(http://static.121tongbu.com/www/dest/images/coursesys/check-icon.png) center no-repeat;margin-right:20px}
 .coursesys .block6-content .item-list li span{display:inline-block;vertical-align:middle;font-size:16px}
-.learning-concepts .learn-banner{background:url(../images/study/study-banner.jpg) center no-repeat;background-size:cover;height:630px}
+.learning-concepts .learn-banner{background:url(http://static.121tongbu.com/www/dest/images/study/study-banner.jpg) center no-repeat;background-size:cover;height:630px}
 .learning-concepts .learn_title{padding:50px 0 20px;text-align:center}
 .learning-concepts .learn_title h1{padding:10px 0;font-size:34px;font-weight:100;color:#ff6248}
 .learning-concepts .learn_title h2{font-size:24px;font-weight:100;color:#333}
@@ -686,12 +686,12 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .learning-concepts .learn_title1{padding:50px 0 30px;font-size:40px;font-weight:600;text-align:center}
 .learning-concepts .learn_title1 span{color:#fe6a00}
 .learning-concepts .learn_mode2{padding-bottom:80px}
-.learning-concepts .learn_carousel{position:relative;width:1170px;height:668px;background:url(../images/study/swiper-mac.png) center no-repeat;padding-top:28px}
+.learning-concepts .learn_carousel{position:relative;width:1170px;height:668px;background:url(http://static.121tongbu.com/www/dest/images/study/swiper-mac.png) center no-repeat;padding-top:28px}
 .learning-concepts .learn_carousel .box{position:relative;margin:0 auto;width:902px;height:566px;overflow:hidden;background:#fff}
 .learning-concepts .learn_carousel ul{position:absolute;left:0;top:0}
 .learning-concepts .learn_carousel li{float:left;padding:0 20px 20px;width:902px;height:581px}
-.learning-concepts .learn_carousel span.previous{display:block;position:absolute;left:0;top:240px;width:40px;height:40px;background:url(../images/study/prev.png) center no-repeat;background-size:100%}
-.learning-concepts .learn_carousel span.next{display:block;position:absolute;right:0;top:240px;width:40px;height:40px;background:url(../images/study/next.png) center no-repeat;background-size:100%}
+.learning-concepts .learn_carousel span.previous{display:block;position:absolute;left:0;top:240px;width:40px;height:40px;background:url(http://static.121tongbu.com/www/dest/images/study/prev.png) center no-repeat;background-size:100%}
+.learning-concepts .learn_carousel span.next{display:block;position:absolute;right:0;top:240px;width:40px;height:40px;background:url(http://static.121tongbu.com/www/dest/images/study/next.png) center no-repeat;background-size:100%}
 .learning-concepts .learn_carousel span.next:hover,.learning-concepts .learn_carousel span.previous:hover{background-color:#999;border-radius:20px;-webkit-border-radius:20px;cursor:pointer}
 .learning-concepts .learn_mode3{padding-bottom:50px}
 .learning-concepts .learn_mode3 a.btn-yy{font-size:30px}
@@ -709,8 +709,8 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .learning-concepts .learn_mode4 .list ul li h2{text-align:center;padding:15px 0;font-size:20px;color:#333}
 .learning-concepts .learn_mode4 .list ul li p{font-size:14px;color:#333;line-height:24px;text-align:left}
 .learning-concepts .learn_mode5{padding-bottom:50px}
-.theline-center-banner{display:block;background:url(../images/theline-center/theline-center-banner.jpg) center center no-repeat;height:630px}
-.theline-ui{display:inline-block;background:url(../images/theline-center/theline-ui.png) no-repeat;width:150px;height:100px;vertical-align:top}
+.theline-center-banner{display:block;background:url(http://static.121tongbu.com/www/dest/images/theline-center/theline-center-banner.jpg) center center no-repeat;height:630px}
+.theline-ui{display:inline-block;background:url(http://static.121tongbu.com/www/dest/images/theline-center/theline-ui.png) no-repeat;width:150px;height:100px;vertical-align:top}
 .theline-ui.icon-num-1{background-position:-320px 0}
 .theline-ui.icon-num-2{background-position:-160px 0}
 .theline-ui.icon-num-3{background-position:0 -112px}
@@ -726,7 +726,7 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .theline-center-list-item .item-top{padding:0 60px;height:100px;line-height:100px;font-size:0}
 .theline-center-list-item .item-top .city{display:inline-block;font-size:56px;color:#f26140;padding:0 45px}
 .theline-center-list-item .item-top .addr{display:inline-block;font-size:20px;line-height:30px;padding:20px 0}
-.theline-center-list-item .item-middle{background:url(../images/theline-center/theline-item-bg.png);width:100%;height:304px;overflow:hidden;padding:55px 90px 30px;margin-top:18px}
+.theline-center-list-item .item-middle{background:url(http://static.121tongbu.com/www/dest/images/theline-center/theline-item-bg.png);width:100%;height:304px;overflow:hidden;padding:55px 90px 30px;margin-top:18px}
 .theline-center-list-item .item-middle ul{margin-left:-15px}
 .theline-center-list-item .item-middle ul li{float:left;width:320px;height:216px;margin-left:15px}
 .video-src{background:#000}
@@ -737,9 +737,9 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .about .video-list .item:first-child{margin-left:0}
 .about .video-list .item .text{font-size:16px;margin-top:10px;text-align:center;height:24px;overflow:hidden}
 .about .video-list .item .temp-play{width:280px;height:210px;position:relative}
-.about .video-list .item .temp-play .video-play{display:inline-block;width:50px;height:50px;background:url(../images/about/paly-icon.png) center no-repeat;position:absolute;top:50%;left:50%;margin-left:-25px;margin-top:-25px}
+.about .video-list .item .temp-play .video-play{display:inline-block;width:50px;height:50px;background:url(http://static.121tongbu.com/www/dest/images/about/paly-icon.png) center no-repeat;position:absolute;top:50%;left:50%;margin-left:-25px;margin-top:-25px}
 .about .video-list .item .temp-play img{display:block;width:100%;height:100%}
-.about-banner{height:630px;background:url(../images/about/about-banner.jpg) center no-repeat;background-size:cover}
+.about-banner{height:630px;background:url(http://static.121tongbu.com/www/dest/images/about/about-banner.jpg) center no-repeat;background-size:cover}
 .about_title{text-align:center;padding:60px 0 40px;color:#333}
 .about_title h1{padding:5px 0;font-size:62px;line-height:80px}
 .about_title p{padding:10px 0;font-size:28px;line-height:24px}
@@ -764,8 +764,8 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .about-team li .info.bg-red{background:#e7637c;margin-right:21px}
 .about-team li .name{font-size:42px;line-height:42px;margin-bottom:15px}
 .about-team li .text{font-size:18px;line-height:1.5}
-.news-center-banner{display:block;background:url(../images/news-center/news-center-banner.jpg) center center no-repeat;height:630px}
-.news-detail-banner{background-image:url(../images/news-center/news-detail-banner.jpg)}
+.news-center-banner{display:block;background:url(http://static.121tongbu.com/www/dest/images/news-center/news-center-banner.jpg) center center no-repeat;height:630px}
+.news-detail-banner{background-image:url(http://static.121tongbu.com/www/dest/images/news-center/news-detail-banner.jpg)}
 .news-tab{width:100%;height:60px;line-height:60px;font-size:0;text-align:center;background-color:#fff}
 .news-tab-item{font-size:18px;color:#333;display:inline-block;width:195px;padding:0 30px;border-top:4px solid #999}
 .news-tab-item.active,.news-tab-item:hover{color:#ec6941;border-color:#ec6941}
